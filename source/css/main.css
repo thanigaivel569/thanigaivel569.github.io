@@ -1,0 +1,86 @@
+body{
+    background-color: pink;
+    font-weight: 200;
+   }
+
+  
+  .content {
+    lost-center: 900px;
+  }
+  
+  .Header
+ {      background-color:green;
+    lost-column: 1/1 ;
+    height: 100px;
+  }
+
+
+ 
+  .Nav-bar {
+    margin-top: 20px;
+    background-color:red;
+    lost-column: 1/4   ;
+    height: 50px;
+    
+  }
+  
+  .Languages {
+    margin-top: 20px;
+      background-color: yellow;
+    lost-column:1/5 5 ;
+    height: 200px;
+    
+
+  } 
+  .Explore{
+    background-color:aqua;
+    margin-top: 30px;
+    lost-column:1/1  ;
+    height: 100px;
+  
+  }
+
+  .Education-Technology{
+    background-color:cadetblue;
+    margin-top: 20px;
+    lost-column:1/2  ;
+    height:40px;
+
+
+  }
+  
+  .Footer{
+      background-color:midnightblue;
+    margin-top: 20px;
+    lost-column: 1/1 ;
+    height:50px;
+    
+  }
+
+ 
+  @media screen and (max-width: 450px) and (min-width: 350px) {
+    .Explore {
+        
+        lost-column: 1/1;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 350px) {
+    .Languages {
+      
+        lost-column: 1/1 ;
+    }
+     
+    
+      }
+     
+
+    
+     
+    
+    
+    
+    
+
+
+ 

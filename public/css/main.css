@@ -1,0 +1,295 @@
+body{
+    background-color: pink;
+    font-weight: 200;
+   }
+
+  
+  .content {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  .content:before {
+    content: '';
+    display: table;
+  }
+
+  
+  .content:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .Header
+ {      background-color:green;
+    width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+    height: 100px;
+  }
+  
+  .Header:nth-child(1n)
+ {
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+  
+  .Header:last-child
+ {
+    margin-right: 0;
+  }
+  
+  .Header:nth-child(1n)
+ {
+    margin-right: 0;
+    float: right;
+  }
+  
+  .Header:nth-child(1n + 1)
+ {
+    clear: both;
+  }
+
+
+ 
+  .Nav-bar {
+    margin-top: 20px;
+    background-color:red;
+    width: calc(99.9% * 1/4 - (30px - 30px * 1/4));
+    height: 50px;
+    
+  }
+
+
+ 
+  .Nav-bar:nth-child(1n) {
+    float: left;
+    margin-right: 30px;
+    clear: none;
+    
+  }
+
+
+ 
+  .Nav-bar:last-child {
+    margin-right: 0;
+    
+  }
+
+
+ 
+  .Nav-bar:nth-child(4n) {
+    margin-right: 0;
+    float: right;
+    
+  }
+
+
+ 
+  .Nav-bar:nth-child(4n + 1) {
+    clear: both;
+    
+  }
+  
+  .Languages {
+    margin-top: 20px;
+      background-color: yellow;
+    width:calc(99.9% * 1/5 - (30px - 30px * 1/5));
+    height: 200px;
+    
+
+  }
+  
+  .Languages:nth-child(1n) {
+    float:left;
+    margin-right:30px;
+    clear:none;
+    
+
+  }
+  
+  .Languages:last-child {
+    margin-right:0;
+    
+
+  }
+  
+  .Languages:nth-child(5n) {
+    margin-right:0;
+    float:right;
+    
+
+  }
+  
+  .Languages:nth-child(5n + 1) {
+    clear:both;
+    
+
+  } 
+  .Explore{
+    background-color:aqua;
+    margin-top: 30px;
+    width:calc(99.9% * 1/1 - (30px - 30px * 1/1));
+    height: 100px;
+  
+  } 
+  .Explore:nth-child(1n){
+    float:left;
+    margin-right:30px;
+    clear:none;
+  
+  } 
+  .Explore:last-child{
+    margin-right:0;
+  
+  } 
+  .Explore:nth-child(1n){
+    margin-right:0;
+    float:right;
+  
+  } 
+  .Explore:nth-child(1n + 1){
+    clear:both;
+  
+  }
+
+  .Education-Technology{
+    background-color:cadetblue;
+    margin-top: 20px;
+    width:calc(99.9% * 1/2 - (30px - 30px * 1/2));
+    height:40px;
+
+
+  }
+
+  .Education-Technology:nth-child(1n){
+    float:left;
+    margin-right:30px;
+    clear:none;
+
+
+  }
+
+  .Education-Technology:last-child{
+    margin-right:0;
+
+
+  }
+
+  .Education-Technology:nth-child(2n){
+    margin-right:0;
+    float:right;
+
+
+  }
+
+  .Education-Technology:nth-child(2n + 1){
+    clear:both;
+
+
+  }
+  
+  .Footer{
+      background-color:midnightblue;
+    margin-top: 20px;
+    width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+    height:50px;
+    
+  }
+  
+  .Footer:nth-child(1n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+    
+  }
+  
+  .Footer:last-child{
+    margin-right: 0;
+    
+  }
+  
+  .Footer:nth-child(1n){
+    margin-right: 0;
+    float: right;
+    
+  }
+  
+  .Footer:nth-child(1n + 1){
+    clear: both;
+    
+  }
+
+ 
+  @media screen and (max-width: 450px) and (min-width: 350px) {
+    .Explore {
+        
+        width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+    }
+    .Explore:nth-child(1n) {
+        
+        float: left;
+        
+        margin-right: 30px;
+        
+        clear: none;
+    }
+    .Explore:last-child {
+        
+        margin-right: 0;
+    }
+    .Explore:nth-child(1n) {
+        
+        margin-right: 0;
+        
+        float: right;
+    }
+    .Explore:nth-child(1n + 1) {
+        
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 350px) {
+    .Languages {
+      
+        width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+    }
+    .Languages:nth-child(1n) {
+      
+        float: left;
+      
+        margin-right: 30px;
+      
+        clear: none;
+    }
+    .Languages:last-child {
+      
+        margin-right: 0;
+    }
+    .Languages:nth-child(1n) {
+      
+        margin-right: 0;
+      
+        float: right;
+    }
+    .Languages:nth-child(1n + 1) {
+      
+        clear: both;
+    }
+     
+    
+      }
+     
+
+    
+     
+    
+    
+    
+    
+
+
+ 
